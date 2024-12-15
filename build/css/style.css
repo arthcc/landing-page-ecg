@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #000 0%, #491E18 100%);
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #000 0%, #491E18 100%) !important;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #000 0%, #491E18 100%);
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -257,7 +257,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #000 0%, #491E18 100%);
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +276,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #000 0%, #491E18 100%);
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +291,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #491E18;
+  color: #5ca9fb;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -308,18 +308,17 @@ header .intro-text {
   margin: 30px 0;
 }
 /* Services Section */
-
-
-
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #000 0%, #491E18 100%);
-  color: #fff}
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+}
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff}
+  color: #fff;
+}
 #services .section-title h2::after {
   position: absolute;
   content: "";
@@ -335,7 +334,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #000 0%, #491E18 100%);
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -369,7 +368,11 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(to right, #000 0%, #491E18 100%);
+  background: linear-gradient(
+    to right,
+    rgba(99, 114, 255, 0.8) 0%,
+    rgba(92, 169, 251, 0.8) 100%
+  );
   padding: 30% 0 0;
   height: 100%;
   width: 100%;

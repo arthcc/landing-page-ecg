@@ -18,6 +18,19 @@
       "Impermeabilização"
     ]
   },
+
+  "OurServices2": {
+    "paragraph":"Fornecimento de mão de obra especializada para sua obra do início ao fim. Acompanhamos a execução da sua obra fornecendo o conhecimento técnico de nossos profissionais para todas as etapas construtivas, garantindo assim uma melhor qualidade e economia na obra.",
+      "Why": [
+        "Projetos Arquitetônicos ",
+        "Projetos estruturais ",
+        "Projetos complementares "
+    
+      ],
+      "Why2": [
+       
+      ]
+    },
   
   "Gallery": [
     {
@@ -68,18 +81,18 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
+      "icon": "fa fa-clock-o",
+      "name": "5 anos de experiência",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
+      "icon": "fa fa-user",
+      "name": "Mais de 300 clientes satisfeitos",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
+      "icon": "fa fa-thumbs-up",
+      "name": "Confiança e qualidade",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
