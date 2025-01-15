@@ -4,23 +4,17 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "OurServices": {
-  "paragraph":"Na ECG Construções você encontra os melhores profissionais para realizar a reforma!",
+  "paragraph":" Atuamos em todas as etapas da construção, oferecendo soluções completas para projetos residenciais, comerciais e industriais. Desde a fundação até o acabamento, realizamos alvenaria, instalações hidráulicas e elétricas, pintura, revestimentos e muito mais para entregar sua obra pronta. Nosso foco é na qualidade, eficiência e no atendimento às necessidades específicas de cada cliente, sempre com materiais de alta performance e profissionais especializados.",
     "Why": [
-      "Reforço estrutural",
-      "Acabamentos",
-      "Pintura",
-      "Gesso"
+   
     ],
     "Why2": [
-      "Elétrica",
-      "Hidráulica",
-      "Serralheria",
-      "Impermeabilização"
+     
     ]
   },
 
   "OurServices2": {
-    "paragraph":"Fornecimento de mão de obra especializada para sua obra do início ao fim. Acompanhamos a execução da sua obra fornecendo o conhecimento técnico de nossos profissionais para todas as etapas construtivas, garantindo assim uma melhor qualidade e economia na obra.",
+    "paragraph":"Realizamos reformas completas para residências, comércios e imóveis industriais, transformando ambientes com rapidez e qualidade. Oferecemos desde pequenos reparos até reformas estruturais, como troca de pisos, pintura, modernização de cozinhas e banheiros, e adequação de espaços. Nosso time de profissionais está preparado para atender às necessidades específicas de cada projeto, garantindo resultados duradouros e um ambiente renovador, sem comprometer seu orçamento ou prazo.",
       "Why": [
         "Projetos Arquitetônicos ",
         "Projetos estruturais ",
@@ -30,7 +24,46 @@
       "Why2": [
        
       ]
+      
     },
+
+    "OurServices3": {
+      "paragraph":" Oferecemos serviços especializados de acompanhamento de obra para garantir que cada etapa do seu projeto seja realizada com precisão e dentro do prazo. Com nosso acompanhamento, você tem a tranquilidade de saber que sua obra está sendo conduzida de maneira eficiente e sem surpresas, com total transparência e comprometimento.",
+        "Why": [
+        
+      
+        ],
+        "Why2": [
+         
+        ]
+      },
+
+      "OurServices4": {
+        "paragraph":" Desenvolvemos projetos inovadores e estruturais personalizados, adequados às suas necessidades e à legislação vigente, garantindo as soluções e segurança do seu empreendimento. Além disso, oferecemos laudos técnicos detalhados e vistorias. Com nossa expertise, você pode contar com soluções técnicas precisas e de confiança, garantindo o sucesso e a conformidade legal de sua obra.",
+          "Why": [
+          
+        
+          ],
+          "Why2": [
+           
+          ]
+        },
+
+
+      "OurServices5": {
+        "paragraph":" Produza sua própria energia. Invista no futuro e aproveite as vantagens da energia solar fotovoltaica !.",
+          "Why": [
+           "Economia Garantida: Reduza drasticamente os custos com energia elétrica desde o primeiro mês.",  
+"Sustentabilidade: Contribua para o meio ambiente com uma fonte de energia limpa e renovável.",  
+"Valorização do Imóvel: Sistemas solares aumentam o valor de mercado da sua propriedade.",  
+"Independência Energética: Proteja-se contra aumentos nas tarifas de energia."
+
+        
+          ],
+          "Why2": [
+           
+          ]
+        },
   
   "Gallery": [
     {
@@ -83,17 +116,17 @@
     {
       "icon": "fa fa-clock-o",
       "name": "5 anos de experiência",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Há 5 anos, a ECG atua no ramo da construção civil, transformando ideias em projetos concretos com qualidade, eficiência e dedicação."
     },
     {
       "icon": "fa fa-user",
       "name": "Mais de 300 clientes satisfeitos",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Ao longo da nossa trajetória, tivemos o privilégio de atender mais de 300 clientes, cada um com sonhos, necessidades e projetos únicos. Esse marco é a prova do nosso compromisso com a qualidade, a confiança e a dedicação que colocamos em cada obra."
     },
     {
       "icon": "fa fa-thumbs-up",
       "name": "Confiança e qualidade",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Na ECG, confiança e qualidade são a base do nosso trabalho. Com anos de experiência e mais de 300 clientes atendidos, entregamos obras que refletem nosso compromisso com segurança, eficiência e excelência. "
     }
   ],
   "Testimonials": [

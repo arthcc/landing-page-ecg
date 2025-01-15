@@ -10,7 +10,9 @@
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.30.2",
-    "smooth-scroll": "^16.1.3"
+    "react-swiper": "^0.1.5",
+    "smooth-scroll": "^16.1.3",
+    "swiper": "^11.1.15"
   },
   "scripts": {
     "start": "react-scripts start",
