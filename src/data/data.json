@@ -16,9 +16,7 @@
   "OurServices2": {
     "paragraph":"Realizamos reformas completas para residências, comércios e imóveis industriais, transformando ambientes com rapidez e qualidade. Oferecemos desde pequenos reparos até reformas estruturais, como troca de pisos, pintura, modernização de cozinhas e banheiros, e adequação de espaços. Nosso time de profissionais está preparado para atender às necessidades específicas de cada projeto, garantindo resultados duradouros e um ambiente renovador, sem comprometer seu orçamento ou prazo.",
       "Why": [
-        "Projetos Arquitetônicos ",
-        "Projetos estruturais ",
-        "Projetos complementares "
+        
     
       ],
       "Why2": [
@@ -42,7 +40,9 @@
         "paragraph":" Desenvolvemos projetos inovadores e estruturais personalizados, adequados às suas necessidades e à legislação vigente, garantindo as soluções e segurança do seu empreendimento. Além disso, oferecemos laudos técnicos detalhados e vistorias. Com nossa expertise, você pode contar com soluções técnicas precisas e de confiança, garantindo o sucesso e a conformidade legal de sua obra.",
           "Why": [
           
-        
+        "Projetos Arquitetônicos ",
+        "Projetos estruturais ",
+        "Projetos complementares "
           ],
           "Why2": [
            
@@ -54,62 +54,62 @@
         "paragraph":" Produza sua própria energia. Invista no futuro e aproveite as vantagens da energia solar fotovoltaica !.",
           "Why": [
            "Economia Garantida: Reduza drasticamente os custos com energia elétrica desde o primeiro mês.",  
-"Sustentabilidade: Contribua para o meio ambiente com uma fonte de energia limpa e renovável.",  
-"Valorização do Imóvel: Sistemas solares aumentam o valor de mercado da sua propriedade.",  
-"Independência Energética: Proteja-se contra aumentos nas tarifas de energia."
+"Sustentabilidade: Contribua para o meio ambiente com uma fonte de energia limpa e renovável."  
+
 
         
           ],
           "Why2": [
-           
+           "Valorização do Imóvel: Sistemas solares aumentam o valor de mercado da sua propriedade.",  
+"Independência Energética: Proteja-se contra aumentos nas tarifas de energia."
           ]
         },
   
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/portfolio/emater.jpg",
+      "smallImage": "img/portfolio/emater.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/portfolio/apartamento savassi.jpeg",
+      "smallImage": "img/portfolio/apartamento savassi.jpeg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "img/portfolio/FOTO PS AP.jpg",
+      "smallImage": "img/portfolio/FOTO PS AP.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/portfolio/casa sarzedo.JPEG",
+      "smallImage": "img/portfolio/casa sarzedo.JPEG"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/portfolio/cobertura luxemburgo.jpg",
+      "smallImage": "img/portfolio/cobertura luxemburgo.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/portfolio/foto banheiro.jpg",
+      "smallImage": "img/portfolio/foto banheiro.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/portfolio/Sindicato dos Bancários.jpgg",
+      "smallImage": "img/portfolio/Sindicato dos Bancários.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/portfolio/casa california.jpg",
+      "smallImage": "img/portfolio/casa california.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/portfolio/Senai.JPEG",
+      "smallImage": "img/portfolio/Senai.JPEG"
     }
   ],
   "Services": [
@@ -184,7 +184,7 @@
     }
   ],
   "Contact": {
-    "address": "Teste de Endereço, 1234",
+    
     "phone": "+31 97501-8269 / 31 99394-8204",
     "email": "construcoesecg@gmail.com",
     "instagram": "https://www.instagram.com/ecgconstrucoes/",

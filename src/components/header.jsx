@@ -1,7 +1,8 @@
 import React from "react"
 import "swiper/css"
 import "swiper/css/navigation"
-import { Navigation } from "swiper/modules"
+import "swiper/css/autoplay"
+import { Navigation, Autoplay } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 export const HeaderCarousel = (props) => {
@@ -22,14 +23,19 @@ export const HeaderCarousel = (props) => {
 							width: "100%",
 							margin: "0",
 							padding: "0",
+							position: "relative",
 						}}
 					>
 						<Swiper
-							modules={[Navigation]}
+							modules={[Navigation, Autoplay]}
 							navigation
 							spaceBetween={0}
 							slidesPerView={1}
 							loop={true}
+							autoplay={{
+								delay: 5000,
+								disableOnInteraction: false,
+							}}
 							className=""
 							style={{
 								margin: "0",
@@ -45,6 +51,7 @@ export const HeaderCarousel = (props) => {
 											padding: "0",
 											margin: "0",
 											marginRight: "0",
+											position: "relative",
 										}}
 									>
 										<img
@@ -53,10 +60,47 @@ export const HeaderCarousel = (props) => {
 											style={{
 												width: "100%",
 												height: "100%",
+												objectFit: "cover", 
 												margin: "0",
 												padding: "0",
 											}}
 										/>
+										
+										<div
+											style={{
+												position: "absolute",
+												top: "50%",
+												left: "50%",
+												transform: "translate(-50%, -50%)",
+												color: "white",
+												textAlign: "center",
+												
+												padding: "20px",
+												borderRadius: "10px",
+											}}
+										>
+											<h2>{slide.title}</h2>
+											<a
+												href={slide.link || "#"}
+												style={{
+													color: "white",
+													textDecoration: "none",
+													fontSize: "16px",
+													backgroundColor: "#4A1E19",
+													padding: "10px 20px",
+													borderRadius: "5px",
+													transition: "background-color 0.3s",
+												}}
+												onMouseEnter={(e) => {
+													e.target.style.backgroundColor = "#4A1E19"
+												}}
+												onMouseLeave={(e) => {
+													e.target.style.backgroundColor = "#4A1E19"
+												}}
+											>
+												Saiba Mais
+											</a>
+										</div>
 									</SwiperSlide>
 								))
 							) : (
