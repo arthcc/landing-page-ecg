@@ -19,27 +19,6 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
-
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
   };
   return (
     <div>
@@ -51,9 +30,7 @@ export const Contact = (props) => {
                 <h2>Entre em Contato</h2>
                 <div className="contact-item">
                   <p>
-                    <span>
-                     
-                    </span>
+                    <span></span>
                     {props.data ? props.data.address : "loading"}
                   </p>
                 </div>
@@ -81,17 +58,24 @@ export const Contact = (props) => {
             <div className="row">
               <div className="social">
                 <ul>
-                <li>
-  <a href={props.data?.instagram || "/"} target="_blank" rel="noopener noreferrer">
-    <i className="fa fa-instagram"></i>
-  </a>
-</li>
-<li>
-  <a href={props.data?.whatsapp || "/"} target="_blank" rel="noopener noreferrer">
-    <i className="fa fa-whatsapp"></i>
-  </a>
-</li>
-                
+                  <li>
+                    <a
+                      href={props.data?.instagram || "/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={props.data?.whatsapp || "/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa fa-whatsapp"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -100,9 +84,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>
-            &copy; 2024 ECG Construções e Reformas.
-          </p>
+          <p>&copy; 2024 ECG Construções e Reformas.</p>
         </div>
       </div>
     </div>
