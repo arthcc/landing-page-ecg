@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import SmoothScroll from "smooth-scroll"
+import { FaWhatsapp } from "react-icons/fa" // Importe o ícone do WhatsApp
 import "./App.css"
 import { Contact } from "./components/contact"
 import { Gallery } from "./components/gallery"
@@ -41,6 +42,16 @@ const App = () => {
 			<Services data={landingPageData.Services} />
 			<Gallery data={landingPageData.Gallery} />
 			<Contact data={landingPageData.Contact} />
+			
+			
+			<a
+				href="https://wa.me/1234567890"
+				target="_blank"
+				rel="noopener noreferrer"
+				className="whatsapp-icon"
+			>
+				<FaWhatsapp size={50} color="#fff" />
+			</a>
 		</div>
 	)
 }
@@ -64,5 +75,8 @@ const carouselData = {
 		},
 	],
 }
+
+
+
 
 export default App
