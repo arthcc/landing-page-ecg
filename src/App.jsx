@@ -1,30 +1,29 @@
-import React, { useEffect, useState } from "react"
-import SmoothScroll from "smooth-scroll"
-import { FaWhatsapp } from "react-icons/fa" // Importe o ícone do WhatsApp
-import "./App.css"
-import { Contact } from "./components/contact"
-import { Gallery } from "./components/gallery"
-import { HeaderCarousel } from "./components/header"
-import { Navigation } from "./components/navigation"
-import { OurServices } from "./components/ourservices"
-import { OurServices2 } from "./components/ourservices2"
-import { OurServices3 } from "./components/ourservices3"
-import { OurServices4 } from "./components/ourservices4"
-import { OurServices5 } from "./components/ourservices5"
-import { Services } from "./components/services"
-import { Testimonials } from "./components/testimonials"
-import JsonData from "./data/data.json"
+import React, { useEffect, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa"; // Importe o ícone do WhatsApp
+import SmoothScroll from "smooth-scroll";
+import "./App.css";
+import { Contact } from "./components/contact";
+import { Gallery } from "./components/gallery";
+import { HeaderCarousel } from "./components/header";
+import { Navigation } from "./components/navigation";
+import { OurServices } from "./components/ourservices";
+import { OurServices2 } from "./components/ourservices2";
+import { OurServices3 } from "./components/ourservices3";
+import { OurServices4 } from "./components/ourservices4";
+import { OurServices5 } from "./components/ourservices5";
+import { Services } from "./components/services";
+import JsonData from "./data/data.json";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
 	speedAsDuration: true,
-})
+});
 
 const App = () => {
-	const [landingPageData, setLandingPageData] = useState({})
+	const [landingPageData, setLandingPageData] = useState({});
 	useEffect(() => {
-		setLandingPageData(JsonData)
-	}, [])
+		setLandingPageData(JsonData);
+	}, []);
 
 	return (
 		<div
@@ -42,8 +41,7 @@ const App = () => {
 			<Services data={landingPageData.Services} />
 			<Gallery data={landingPageData.Gallery} />
 			<Contact data={landingPageData.Contact} />
-			
-			
+
 			<a
 				href="https://wa.me/1234567890"
 				target="_blank"
@@ -53,30 +51,30 @@ const App = () => {
 				<FaWhatsapp size={50} color="#fff" />
 			</a>
 		</div>
-	)
-}
+	);
+};
 
 const carouselData = {
 	slides: [
 		{
 			title: "Bem-vindo ao Site",
 			paragraph: "Descubra tudo o que oferecemos!",
-			image: "img/header_1.PNG",
+			image: "img/header_1.JPG",
+			link: "#about",
 		},
 		{
 			title: "Nossos Serviços",
 			paragraph: "Conheça nossos serviços incríveis!",
-			image: "img/header_2.PNG",
+			image: "img/header_2.JPG",
+			link: "#about",
 		},
 		{
 			title: "Entre em Contato",
 			paragraph: "Estamos prontos para ajudar você.",
-			image: "img/header_3.PNG",
+			image: "img/header_3.JPG",
+			link: "#contact",
 		},
 	],
-}
+};
 
-
-
-
-export default App
+export default App;
