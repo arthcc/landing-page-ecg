@@ -1,9 +1,9 @@
-import React from "react"
-import "swiper/css"
-import "swiper/css/navigation"
-import "swiper/css/autoplay"
-import { Navigation, Autoplay } from "swiper/modules"
-import { Swiper, SwiperSlide } from "swiper/react"
+import React from "react";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/navigation";
+import { Autoplay, Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export const HeaderCarousel = (props) => {
 	return (
@@ -60,12 +60,12 @@ export const HeaderCarousel = (props) => {
 											style={{
 												width: "100%",
 												height: "100%",
-												objectFit: "cover", 
+												objectFit: "cover",
 												margin: "0",
 												padding: "0",
 											}}
 										/>
-										
+
 										<div
 											style={{
 												position: "absolute",
@@ -74,12 +74,19 @@ export const HeaderCarousel = (props) => {
 												transform: "translate(-50%, -50%)",
 												color: "white",
 												textAlign: "center",
-												
+
 												padding: "20px",
 												borderRadius: "10px",
 											}}
 										>
-											<h2>{slide.title}</h2>
+											<h2
+												style={{
+													color: "white",
+													marginTop: "16rem",
+												}}
+											>
+												{slide.title}
+											</h2>
 											<a
 												href={slide.link || "#"}
 												style={{
@@ -92,10 +99,10 @@ export const HeaderCarousel = (props) => {
 													transition: "background-color 0.3s",
 												}}
 												onMouseEnter={(e) => {
-													e.target.style.backgroundColor = "#4A1E19"
+													e.target.style.backgroundColor = "#4A1E19";
 												}}
 												onMouseLeave={(e) => {
-													e.target.style.backgroundColor = "#4A1E19"
+													e.target.style.backgroundColor = "#4A1E19";
 												}}
 											>
 												Saiba Mais
@@ -118,5 +125,5 @@ export const HeaderCarousel = (props) => {
 				</div>
 			</div>
 		</div>
-	)
-}
+	);
+};
