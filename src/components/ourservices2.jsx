@@ -12,7 +12,6 @@ export const OurServices2 = (props) => {
 						<div className="about-text">
 							<h2>Reformas</h2>
 							<p>{props.data ? props.data.paragraph : "loading..."}</p>
-							<h3>Alguns dos nossos serviços:</h3>
 							<div className="list-style">
 								<div className="col-lg-6 col-sm-6 col-xs-12">
 									<ul>
