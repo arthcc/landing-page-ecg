@@ -43,7 +43,7 @@ const App = () => {
 			<Contact data={landingPageData.Contact} />
 
 			<a
-				href="https://wa.me/1234567890"
+				href="https://wa.me/31975018269 "
 				target="_blank"
 				rel="noopener noreferrer"
 				className="whatsapp-icon"
@@ -57,19 +57,19 @@ const App = () => {
 const carouselData = {
 	slides: [
 		{
-			title: "Bem-vindo ao Site",
+			title: "Acompanhamento",
 			paragraph: "Descubra tudo o que oferecemos!",
 			image: "img/header_1.JPG",
 			link: "#about",
 		},
 		{
-			title: "Nossos Serviços",
+			title: "Projetos",
 			paragraph: "Conheça nossos serviços incríveis!",
 			image: "img/header_2.JPG",
 			link: "#about",
 		},
 		{
-			title: "Entre em Contato",
+			title: "Reformas",
 			paragraph: "Estamos prontos para ajudar você.",
 			image: "img/header_3.JPG",
 			link: "#contact",

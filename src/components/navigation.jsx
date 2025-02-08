@@ -20,7 +20,7 @@ export const Navigation = (props) => {
 			architect: "Olá, sou arquiteto e gostaria de saber mais sobre parcerias!",
 			supplier: "Olá, sou fornecedor e gostaria de saber mais sobre parcerias!",
 		}
-		const phoneNumber = "5551999999999"
+		const phoneNumber = "5531975018269"
 		const message = messages[type]
 		const encodedMessage = encodeURIComponent(message)
 		window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank")

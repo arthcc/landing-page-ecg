@@ -67,47 +67,47 @@
   
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Projeto na Emater",
       "largeImage": "img/portfolio/emater.jpg",
       "smallImage": "img/portfolio/emater.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/apartamento savassi.jpeg",
-      "smallImage": "img/portfolio/apartamento savassi.jpeg"
+      "title": "Apartamento no bairro Savassi",
+      "largeImage": "img/portfolio/savassi.JPEG",
+      "smallImage": "img/portfolio/savassi.JPEG"
     },
     {
-      "title": "Project Title",
+      "title": "Piscina em casa no bairro Buritis",
       "largeImage": "img/portfolio/FOTO PS AP.jpg",
       "smallImage": "img/portfolio/FOTO PS AP.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Casa no bairro Sarzedo",
       "largeImage": "img/portfolio/casa sarzedo.JPEG",
       "smallImage": "img/portfolio/casa sarzedo.JPEG"
     },
     {
-      "title": "Project Title",
+      "title": "Cobertura no bairro Luxemburgo",
       "largeImage": "img/portfolio/cobertura luxemburgo.jpg",
       "smallImage": "img/portfolio/cobertura luxemburgo.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Reforma de banheiro residencial",
       "largeImage": "img/portfolio/foto banheiro.jpg",
       "smallImage": "img/portfolio/foto banheiro.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Projeto de Reforma Sindicado dos Bancários",
       "largeImage": "img/portfolio/Sindicato dos Bancários.jpgg",
       "smallImage": "img/portfolio/Sindicato dos Bancários.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Reforma em casa no bairro Califórnia",
       "largeImage": "img/portfolio/casa california.jpg",
       "smallImage": "img/portfolio/casa california.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Projeto de Reforma SENAI",
       "largeImage": "img/portfolio/Senai.JPEG",
       "smallImage": "img/portfolio/Senai.JPEG"
     }
