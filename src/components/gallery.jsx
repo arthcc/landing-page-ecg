@@ -15,6 +15,7 @@ export const Gallery = (props) => {
 							display: "grid",
 							gridTemplateColumns: "repeat(3, 1fr)",
 							gap: "1rem",
+							marginRight: "50px",
 						}}
 					>
 						{props.data
