@@ -74,6 +74,12 @@ const carouselData = {
 			image: "img/header_3.JPG",
 			link: "#contact",
 		},
+		{
+			title: "Construções",
+			paragraph: "Construções para você..",
+			image: "img/construcoes2.jpg",
+			link: "#about",
+		},
 	],
 };
 
